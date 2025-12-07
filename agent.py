@@ -4,6 +4,7 @@ My Smart Agent for Connect Four
 This agent uses rule-based heuristics to play strategically,
 with optimized win checks using NumPy.
 """
+# Mis sur MLARENA
 
 import random
 import numpy as np

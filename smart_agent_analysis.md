@@ -3,9 +3,9 @@
 ## Résultats du tournoi contre RandomAgent
 
 - Nombre de parties jouées : 100
-- SmartAgent a gagné : 67
+- SmartAgent a gagné : 100
 - RandomAgent a gagné : 0
-- Matchs nuls : 33
+- Matchs nuls : 0
 
 ## Efficacité de la stratégie
 

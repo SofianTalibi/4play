@@ -148,7 +148,7 @@ class Agent:
             # Le coup consiste à ajouter un bit au-dessus du top bit actuel de la colonne dans le mask
             # mask | (mask + (1 << (col*7)))
             # (mask + (1 << (col*7))) & partie_colonne
-            move_bit = (mask + (1 << (col * 7))) & (0x3F << (col * 7)) 
+            
             # (mask + bottom_mask(col)) & column_mask(col)
             
             height = 0
@@ -228,4 +228,5 @@ class Agent:
     def _check_timeout(self):
 
         return (time.time() - self.start_time) > self.time_limit
+
 
